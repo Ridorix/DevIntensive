@@ -30,11 +30,11 @@ public class PreferencesManager {
 
     public List<String> loadUserProfileData() {
         List<String> userFields = new ArrayList<>();
-        userFields.add(mSharedPreferences.getString(ConstantManager.USER_PHONE_KEY, "null"));
-        userFields.add(mSharedPreferences.getString(ConstantManager.USER_MAIL_KEY, "null"));
-        userFields.add(mSharedPreferences.getString(ConstantManager.USER_VK_KEY, "null"));
-        userFields.add(mSharedPreferences.getString(ConstantManager.USER_GIT_KEY, "null"));
-        userFields.add(mSharedPreferences.getString(ConstantManager.USER_ABOUT_KEY, "null"));
+        userFields.add(mSharedPreferences.getString(ConstantManager.USER_PHONE_KEY, "+7913208****"));
+        userFields.add(mSharedPreferences.getString(ConstantManager.USER_MAIL_KEY, "ridorix@yandex.ru"));
+        userFields.add(mSharedPreferences.getString(ConstantManager.USER_VK_KEY, "vk.com/ridorix"));
+        userFields.add(mSharedPreferences.getString(ConstantManager.USER_GIT_KEY, "github.com/Ridorix/DevIntensive"));
+        userFields.add(mSharedPreferences.getString(ConstantManager.USER_ABOUT_KEY, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."));
         return userFields;
     }
 }
