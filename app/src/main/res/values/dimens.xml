@@ -30,4 +30,7 @@
     <dimen name="spacing_large_96">96dp</dimen>
     <dimen name="spacing_large_104">104dp</dimen>
     <dimen name="line_thickness">1dp</dimen>
+    <dimen name="profile_image_size">256dp</dimen>
+
+    <dimen name="fab_right_space">8dp</dimen>
 </resources>
